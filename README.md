@@ -62,4 +62,23 @@ Upon test completion, students are transitioned to a clean dashboard. If they pr
 
 ---
 
-*Note: This software was natively modified and secured via intelligent agentic coding strategies focusing on institutional-grade security models, advanced data validation constraints, and responsive modern aesthetic principles.*
+## 🔑 How to Change Admin Username & Password
+
+Follow these steps using **phpMyAdmin**:
+
+1. Open **phpMyAdmin**
+2. Select your database (e.g., `online_exam`)
+3. Open the table that stores admin
+4. Click on the **Edit (✏️)** button for the admin row
+5. Update:
+
+   * `username` → your new username
+   * `password` → your new password
+6. Click **Go / Save**
+
+⚠️ Note:
+
+* If password is hashed (e.g., MD5), select **MD5** from function dropdown before saving
+* If not hashed, you can enter plain password directly
+
+---
